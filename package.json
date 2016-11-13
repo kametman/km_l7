@@ -1,0 +1,52 @@
+{
+    "author": "r0cool01@gmail.com",
+    "dependencies": {
+        "pebble-clay": "^1.0.3"
+    },
+    "keywords": [],
+    "name": "km-l7",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "KM L7",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "HOUR",
+            "TENS",
+            "ONES"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/square_sans_serif_7.ttf",
+                    "name": "FONT_SQUARE_24",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/L7_battery.png",
+                    "name": "IMG_BATT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/L7_bkgd.png",
+                    "name": "IMG_OVERLAY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "16ef46ee-8b2c-45d5-9e89-34a81772b7f2",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
